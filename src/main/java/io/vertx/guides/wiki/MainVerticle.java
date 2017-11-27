@@ -1,8 +1,10 @@
-package io.vertx.starter;
+package io.vertx.guides.wiki;
 
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.DeploymentOptions;
 import io.vertx.core.Future;
+import io.vertx.guides.wiki.database.WikiDatabaseVerticle;
+import io.vertx.guides.wiki.http.HttpServerVerticle;
 
 public class MainVerticle extends AbstractVerticle {
 
